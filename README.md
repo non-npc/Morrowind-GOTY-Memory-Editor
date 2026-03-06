@@ -34,6 +34,16 @@ pip install -r requirements.txt
 python main.py
 ```
 
+## Create an executable
+
+Using [PyInstaller](https://pyinstaller.org/):
+
+```bash
+pip install pyinstaller
+pyinstaller --onefile --windowed --name "Morrowind GOTY Memory Editor" --add-data "instructions.txt;." main.py
+```
+
+The exe will be in the `dist` folder. Use `;` as the separator in `--add-data` on Windows (use `:` on Linux/macOS).
 
 ## Credits
 
