@@ -8,7 +8,7 @@ Version agnostic, should work with any Morrowind version.
 
 **Step 1:** The game must be running and a character loaded. Save your game and pause the game.
 
-**Step 2:** Click "Find Player Base" and enter the values requested. It will take a minute or two to scan the game memory for the player data blocks.
+**Step 2:** Click "Find Player Base" and enter the values requested. Takes a minute to scan the game memory for the player data blocks.
 
 **Step 3:** Change the values you want.
 
